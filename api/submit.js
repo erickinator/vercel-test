@@ -32,7 +32,7 @@ export default async function handler(req, res) {
         };
 
         // Post to FollowUpBoss API
-        const fubResponse = await fetch('https://api.followupboss.com/v1/leads', {
+        const fubResponse = await fetch('https://api.followupboss.com/v1/people', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
